@@ -41,14 +41,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/asthtls/dokku-website/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/asthtls/dokku-website/edit/master/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,21 +61,36 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: '포장빵의 개발 블로그',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: '개발 일지',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: '/blog',
+          label: '블로그',
+          position: 'left'
+        },
+        {
+          type: 'doc',
+          docId : 'intro_resource', 
+          label: '자료',
+          position: 'left'
+        },
+        {
+          to: '/AIProjects',
+          label: 'AI 프로젝트',
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/asthtls',
           label: 'GitHub',
           position: 'right',
         },
@@ -88,25 +103,22 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '개발 일지',
+              to: '/docs/intro', // 링크는 적절하게 수정하세요.
+
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: '블로그',
+              to: '/blog', // 링크는 적절하게 수정하세요.
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '자료',
+              to: '/docs/intro_resource', // 링크는 적절하게 수정하세요.
+            },
+            {
+              label: 'AI 프로젝트',
+              to: '/AIProjects', // 링크는 적절하게 수정하세요.
+              position: 'left',
             },
           ],
         },
@@ -114,17 +126,17 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Old Tistory Blog',
+              href: 'http://asthtls.tistory.com',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/asthtls',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 포장빵의 개발 블로그 `,
     },
     prism: {
       theme: prismThemes.github,
