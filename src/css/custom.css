@@ -28,3 +28,10 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* src/css/custom.css */
+.ai-project-page {
+  background-color: #e0f2f1;
+  color: #004d40;
+  padding: 20px;
+  border-radius: 8px;
+}
