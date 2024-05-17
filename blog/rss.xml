@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>포장빵의 개발 블로그 Blog</title>
-        <link>https://asthtls.github.com/dokku-website/blog</link>
+        <link>https://asthtls.com/dokku-website/blog</link>
         <description>포장빵의 개발 블로그 Blog</description>
-        <lastBuildDate>Fri, 10 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[이미지 처리]]></title>
+            <link>https://asthtls.com/dokku-website/blog/image_processing</link>
+            <guid>https://asthtls.com/dokku-website/blog/image_processing</guid>
+            <pubDate>Sun, 12 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[+ 이미지 처리(Image Processing)는]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>이미지 처리(Image Processing)는</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[블로그]]></title>
-            <link>https://asthtls.github.com/dokku-website/blog/2021/08/26/welcome</link>
-            <guid>https://asthtls.github.com/dokku-website/blog/2021/08/26/welcome</guid>
+            <link>https://asthtls.com/dokku-website/blog/2021/08/26/welcome</link>
+            <guid>https://asthtls.com/dokku-website/blog/2021/08/26/welcome</guid>
             <pubDate>Fri, 10 May 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>

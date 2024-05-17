@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdokku_website=self.webpackChunkdokku_website||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\uc774\ubbf8\uc9c0 \ucc98\ub9ac","permalink":"/dokku-website/blog/image_processing","unlisted":false},{"title":"\ube14\ub85c\uadf8","permalink":"/dokku-website/blog/2021/08/26/welcome","unlisted":false}]}')}}]);
