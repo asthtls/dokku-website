@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://asthtls.com/dokku-website/blog</id>
+    <id>https://asthtls.com/blog</id>
     <title>포장빵의 개발 블로그 Blog</title>
     <updated>2024-05-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://asthtls.com/dokku-website/blog"/>
+    <link rel="alternate" href="https://asthtls.com/blog"/>
     <subtitle>포장빵의 개발 블로그 Blog</subtitle>
-    <icon>https://asthtls.com/dokku-website/img/favicon.ico</icon>
+    <icon>https://asthtls.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[이미지 처리]]></title>
-        <id>https://asthtls.com/dokku-website/blog/image_processing</id>
-        <link href="https://asthtls.com/dokku-website/blog/image_processing"/>
+        <id>https://asthtls.com/blog/image_processing</id>
+        <link href="https://asthtls.com/blog/image_processing"/>
         <updated>2024-05-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[+ 이미지 처리(Image Processing)는]]></summary>
         <content type="html"><![CDATA[<ul>
@@ -19,8 +19,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[블로그]]></title>
-        <id>https://asthtls.com/dokku-website/blog/2021/08/26/welcome</id>
-        <link href="https://asthtls.com/dokku-website/blog/2021/08/26/welcome"/>
+        <id>https://asthtls.com/blog/2021/08/26/welcome</id>
+        <link href="https://asthtls.com/blog/2021/08/26/welcome"/>
         <updated>2024-05-10T00:00:00.000Z</updated>
     </entry>
 </feed>
