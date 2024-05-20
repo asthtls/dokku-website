@@ -61,7 +61,7 @@ priority: 1
 
 [사과 이미지와 픽셀 값의 행렬 표현] - 출처: OpenAI DALL-E
 
-![Apple]('image/apple.png')
+![Apple](image/apple.png)
 
 
 디지털 이미지의 처리 단계 
